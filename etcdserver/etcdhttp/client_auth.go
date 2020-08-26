@@ -20,9 +20,9 @@ import (
 	"path"
 	"strings"
 
-	"github.com/coreos/etcd/etcdserver"
-	"github.com/coreos/etcd/etcdserver/auth"
-	"github.com/coreos/etcd/etcdserver/etcdhttp/httptypes"
+	"github.com/zhuzhengyang/etcd/etcdserver"
+	"github.com/zhuzhengyang/etcd/etcdserver/auth"
+	"github.com/zhuzhengyang/etcd/etcdserver/etcdhttp/httptypes"
 )
 
 type authHandler struct {

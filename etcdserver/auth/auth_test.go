@@ -19,11 +19,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/coreos/etcd/Godeps/_workspace/src/golang.org/x/net/context"
-	etcderr "github.com/coreos/etcd/error"
-	"github.com/coreos/etcd/etcdserver"
-	"github.com/coreos/etcd/etcdserver/etcdserverpb"
-	etcdstore "github.com/coreos/etcd/store"
+	"github.com/zhuzhengyang/etcd/Godeps/_workspace/src/golang.org/x/net/context"
+	etcderr "github.com/zhuzhengyang/etcd/error"
+	"github.com/zhuzhengyang/etcd/etcdserver"
+	"github.com/zhuzhengyang/etcd/etcdserver/etcdserverpb"
+	etcdstore "github.com/zhuzhengyang/etcd/store"
 )
 
 type fakeDoer struct{}

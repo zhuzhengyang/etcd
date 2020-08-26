@@ -19,7 +19,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/coreos/etcd/clientv3"
+	"github.com/zhuzhengyang/etcd/clientv3"
 )
 
 var (

@@ -38,11 +38,11 @@ import (
 	"net"
 	"strconv"
 
-	"github.com/coreos/etcd/Godeps/_workspace/src/google.golang.org/grpc"
-	"github.com/coreos/etcd/Godeps/_workspace/src/google.golang.org/grpc/credentials"
-	"github.com/coreos/etcd/Godeps/_workspace/src/google.golang.org/grpc/grpclog"
-	"github.com/coreos/etcd/Godeps/_workspace/src/google.golang.org/grpc/interop"
-	testpb "github.com/coreos/etcd/Godeps/_workspace/src/google.golang.org/grpc/interop/grpc_testing"
+	"github.com/zhuzhengyang/etcd/Godeps/_workspace/src/google.golang.org/grpc"
+	"github.com/zhuzhengyang/etcd/Godeps/_workspace/src/google.golang.org/grpc/credentials"
+	"github.com/zhuzhengyang/etcd/Godeps/_workspace/src/google.golang.org/grpc/grpclog"
+	"github.com/zhuzhengyang/etcd/Godeps/_workspace/src/google.golang.org/grpc/interop"
+	testpb "github.com/zhuzhengyang/etcd/Godeps/_workspace/src/google.golang.org/grpc/interop/grpc_testing"
 )
 
 var (

@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/coreos/etcd/Godeps/_workspace/src/github.com/akrennmair/gopcap"
+	"github.com/zhuzhengyang/etcd/Godeps/_workspace/src/github.com/akrennmair/gopcap"
 )
 
 func min(x uint32, y uint32) uint32 {

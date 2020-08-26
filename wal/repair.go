@@ -19,8 +19,8 @@ import (
 	"os"
 	"path"
 
-	"github.com/coreos/etcd/pkg/fileutil"
-	"github.com/coreos/etcd/wal/walpb"
+	"github.com/zhuzhengyang/etcd/pkg/fileutil"
+	"github.com/zhuzhengyang/etcd/wal/walpb"
 )
 
 // Repair tries to repair ErrUnexpectedEOF in the

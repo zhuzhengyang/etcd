@@ -21,7 +21,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/coreos/etcd/Godeps/_workspace/src/github.com/prometheus/common/model"
+	"github.com/zhuzhengyang/etcd/Godeps/_workspace/src/github.com/prometheus/common/model"
 )
 
 func TestTextDecoder(t *testing.T) {

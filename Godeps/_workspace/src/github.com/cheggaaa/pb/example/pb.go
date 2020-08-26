@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/coreos/etcd/Godeps/_workspace/src/github.com/cheggaaa/pb"
+	"github.com/zhuzhengyang/etcd/Godeps/_workspace/src/github.com/cheggaaa/pb"
 	"time"
 )
 

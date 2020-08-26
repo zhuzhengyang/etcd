@@ -16,7 +16,7 @@ if ! [[ $(protoc --version) =~ "3.0.0" ]]; then
 	exit 255
 fi
 
-PREFIX="github.com/coreos/etcd/Godeps/_workspace/src"
+PREFIX="github.com/zhuzhengyang/etcd/Godeps/_workspace/src"
 ESCAPED_PREFIX=$(echo $PREFIX | sed -e 's/[\/&]/\\&/g')
 
 # directories containing protos to be built

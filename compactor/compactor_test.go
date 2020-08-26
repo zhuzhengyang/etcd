@@ -19,10 +19,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/coreos/etcd/Godeps/_workspace/src/github.com/jonboulle/clockwork"
-	"github.com/coreos/etcd/Godeps/_workspace/src/golang.org/x/net/context"
-	pb "github.com/coreos/etcd/etcdserver/etcdserverpb"
-	"github.com/coreos/etcd/pkg/testutil"
+	"github.com/zhuzhengyang/etcd/Godeps/_workspace/src/github.com/jonboulle/clockwork"
+	"github.com/zhuzhengyang/etcd/Godeps/_workspace/src/golang.org/x/net/context"
+	pb "github.com/zhuzhengyang/etcd/etcdserver/etcdserverpb"
+	"github.com/zhuzhengyang/etcd/pkg/testutil"
 )
 
 func TestPeriodic(t *testing.T) {

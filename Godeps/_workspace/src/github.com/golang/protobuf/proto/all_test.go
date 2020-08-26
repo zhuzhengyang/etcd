@@ -44,8 +44,8 @@ import (
 	"testing"
 	"time"
 
-	. "github.com/coreos/etcd/Godeps/_workspace/src/github.com/golang/protobuf/proto"
-	. "github.com/coreos/etcd/Godeps/_workspace/src/github.com/golang/protobuf/proto/testdata"
+	. "github.com/zhuzhengyang/etcd/Godeps/_workspace/src/github.com/golang/protobuf/proto"
+	. "github.com/zhuzhengyang/etcd/Godeps/_workspace/src/github.com/golang/protobuf/proto/testdata"
 )
 
 var globalO *Buffer

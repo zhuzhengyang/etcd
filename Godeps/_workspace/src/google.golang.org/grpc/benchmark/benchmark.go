@@ -41,10 +41,10 @@ import (
 	"math"
 	"net"
 
-	"github.com/coreos/etcd/Godeps/_workspace/src/golang.org/x/net/context"
-	"github.com/coreos/etcd/Godeps/_workspace/src/google.golang.org/grpc"
-	testpb "github.com/coreos/etcd/Godeps/_workspace/src/google.golang.org/grpc/benchmark/grpc_testing"
-	"github.com/coreos/etcd/Godeps/_workspace/src/google.golang.org/grpc/grpclog"
+	"github.com/zhuzhengyang/etcd/Godeps/_workspace/src/golang.org/x/net/context"
+	"github.com/zhuzhengyang/etcd/Godeps/_workspace/src/google.golang.org/grpc"
+	testpb "github.com/zhuzhengyang/etcd/Godeps/_workspace/src/google.golang.org/grpc/benchmark/grpc_testing"
+	"github.com/zhuzhengyang/etcd/Godeps/_workspace/src/google.golang.org/grpc/grpclog"
 )
 
 func newPayload(t testpb.PayloadType, size int) *testpb.Payload {

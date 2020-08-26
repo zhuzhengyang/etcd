@@ -18,9 +18,9 @@ import (
 	"log"
 	"time"
 
-	"github.com/coreos/etcd/Godeps/_workspace/src/golang.org/x/net/context"
-	"github.com/coreos/etcd/raft"
-	"github.com/coreos/etcd/raft/raftpb"
+	"github.com/zhuzhengyang/etcd/Godeps/_workspace/src/golang.org/x/net/context"
+	"github.com/zhuzhengyang/etcd/raft"
+	"github.com/zhuzhengyang/etcd/raft/raftpb"
 )
 
 type node struct {

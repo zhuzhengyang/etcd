@@ -36,8 +36,8 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/coreos/etcd/Godeps/_workspace/src/github.com/gogo/protobuf/proto"
-	pb "github.com/coreos/etcd/Godeps/_workspace/src/github.com/gogo/protobuf/proto/testdata"
+	"github.com/zhuzhengyang/etcd/Godeps/_workspace/src/github.com/gogo/protobuf/proto"
+	pb "github.com/zhuzhengyang/etcd/Godeps/_workspace/src/github.com/gogo/protobuf/proto/testdata"
 )
 
 func TestGetExtensionsWithMissingExtensions(t *testing.T) {

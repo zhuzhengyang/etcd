@@ -18,8 +18,8 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/coreos/etcd/Godeps/_workspace/src/github.com/golang/protobuf/proto"
-	dto "github.com/coreos/etcd/Godeps/_workspace/src/github.com/prometheus/client_model/go"
+	"github.com/zhuzhengyang/etcd/Godeps/_workspace/src/github.com/golang/protobuf/proto"
+	dto "github.com/zhuzhengyang/etcd/Godeps/_workspace/src/github.com/prometheus/client_model/go"
 )
 
 func TestJSON2Decode(t *testing.T) {

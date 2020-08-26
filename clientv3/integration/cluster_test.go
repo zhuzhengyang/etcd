@@ -18,11 +18,11 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/coreos/etcd/Godeps/_workspace/src/golang.org/x/net/context"
-	"github.com/coreos/etcd/clientv3"
-	"github.com/coreos/etcd/integration"
-	"github.com/coreos/etcd/pkg/testutil"
-	"github.com/coreos/etcd/pkg/types"
+	"github.com/zhuzhengyang/etcd/Godeps/_workspace/src/golang.org/x/net/context"
+	"github.com/zhuzhengyang/etcd/clientv3"
+	"github.com/zhuzhengyang/etcd/integration"
+	"github.com/zhuzhengyang/etcd/pkg/testutil"
+	"github.com/zhuzhengyang/etcd/pkg/types"
 )
 
 func TestMemberList(t *testing.T) {

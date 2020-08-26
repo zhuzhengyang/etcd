@@ -2,12 +2,12 @@
 
 etcd/client is the Go client library for etcd.
 
-[![GoDoc](https://godoc.org/github.com/coreos/etcd/client?status.png)](https://godoc.org/github.com/coreos/etcd/client)
+[![GoDoc](https://godoc.org/github.com/zhuzhengyang/etcd/client?status.png)](https://godoc.org/github.com/zhuzhengyang/etcd/client)
 
 ## Install
 
 ```bash
-go get github.com/coreos/etcd/client
+go get github.com/zhuzhengyang/etcd/client
 ```
 
 ## Usage
@@ -19,8 +19,8 @@ import (
 	"log"
 	"time"
 
-	"github.com/coreos/etcd/Godeps/_workspace/src/golang.org/x/net/context"
-	"github.com/coreos/etcd/client"
+	"github.com/zhuzhengyang/etcd/Godeps/_workspace/src/golang.org/x/net/context"
+	"github.com/zhuzhengyang/etcd/client"
 )
 
 func main() {
@@ -107,4 +107,4 @@ if err != nil {
 
 3. Default etcd/client cannot handle the case that the remote server is SIGSTOPed now. TCP keepalive mechanism doesn't help in this scenario because operating system may still send TCP keep-alive packets. Over time we'd like to improve this functionality, but solving this issue isn't high priority because a real-life case in which a server is stopped, but the connection is kept alive, hasn't been brought to our attention.
 
-4. etcd/client cannot detect whether the member in use is healthy when doing read requests. If the member is isolated from the cluster, etcd/client may retrieve outdated data. As a workaround, users could monitor experimental /health endpoint for member healthy information. We are improving it at [#3265](https://github.com/coreos/etcd/issues/3265).
+4. etcd/client cannot detect whether the member in use is healthy when doing read requests. If the member is isolated from the cluster, etcd/client may retrieve outdated data. As a workaround, users could monitor experimental /health endpoint for member healthy information. We are improving it at [#3265](https://github.com/zhuzhengyang/etcd/issues/3265).

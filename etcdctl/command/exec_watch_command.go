@@ -21,9 +21,9 @@ import (
 	"os/exec"
 	"os/signal"
 
-	"github.com/coreos/etcd/Godeps/_workspace/src/github.com/codegangsta/cli"
-	"github.com/coreos/etcd/Godeps/_workspace/src/golang.org/x/net/context"
-	"github.com/coreos/etcd/client"
+	"github.com/zhuzhengyang/etcd/Godeps/_workspace/src/github.com/codegangsta/cli"
+	"github.com/zhuzhengyang/etcd/Godeps/_workspace/src/golang.org/x/net/context"
+	"github.com/zhuzhengyang/etcd/client"
 )
 
 // NewExecWatchCommand returns the CLI command for "exec-watch".

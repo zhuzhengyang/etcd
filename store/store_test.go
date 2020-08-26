@@ -18,9 +18,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/coreos/etcd/Godeps/_workspace/src/github.com/jonboulle/clockwork"
-	"github.com/coreos/etcd/Godeps/_workspace/src/github.com/stretchr/testify/assert"
-	etcdErr "github.com/coreos/etcd/error"
+	"github.com/zhuzhengyang/etcd/Godeps/_workspace/src/github.com/jonboulle/clockwork"
+	"github.com/zhuzhengyang/etcd/Godeps/_workspace/src/github.com/stretchr/testify/assert"
+	etcdErr "github.com/zhuzhengyang/etcd/error"
 )
 
 func TestNewStoreWithNamespaces(t *testing.T) {

@@ -19,8 +19,8 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/coreos/etcd/Godeps/_workspace/src/github.com/codegangsta/cli"
-	"github.com/coreos/etcd/client"
+	"github.com/zhuzhengyang/etcd/Godeps/_workspace/src/github.com/codegangsta/cli"
+	"github.com/zhuzhengyang/etcd/client"
 )
 
 // NewGetCommand returns the CLI command for "get".

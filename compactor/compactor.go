@@ -18,15 +18,15 @@ import (
 	"sync"
 	"time"
 
-	"github.com/coreos/etcd/Godeps/_workspace/src/github.com/coreos/pkg/capnslog"
-	"github.com/coreos/etcd/Godeps/_workspace/src/github.com/jonboulle/clockwork"
-	"github.com/coreos/etcd/Godeps/_workspace/src/golang.org/x/net/context"
-	pb "github.com/coreos/etcd/etcdserver/etcdserverpb"
-	"github.com/coreos/etcd/storage"
+	"github.com/zhuzhengyang/etcd/Godeps/_workspace/src/github.com/coreos/pkg/capnslog"
+	"github.com/zhuzhengyang/etcd/Godeps/_workspace/src/github.com/jonboulle/clockwork"
+	"github.com/zhuzhengyang/etcd/Godeps/_workspace/src/golang.org/x/net/context"
+	pb "github.com/zhuzhengyang/etcd/etcdserver/etcdserverpb"
+	"github.com/zhuzhengyang/etcd/storage"
 )
 
 var (
-	plog = capnslog.NewPackageLogger("github.com/coreos/etcd", "etcdserver")
+	plog = capnslog.NewPackageLogger("github.com/zhuzhengyang/etcd", "etcdserver")
 )
 
 const (

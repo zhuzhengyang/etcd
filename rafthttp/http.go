@@ -22,12 +22,12 @@ import (
 	"path"
 	"strings"
 
-	"github.com/coreos/etcd/Godeps/_workspace/src/golang.org/x/net/context"
-	pioutil "github.com/coreos/etcd/pkg/ioutil"
-	"github.com/coreos/etcd/pkg/types"
-	"github.com/coreos/etcd/raft/raftpb"
-	"github.com/coreos/etcd/snap"
-	"github.com/coreos/etcd/version"
+	"github.com/zhuzhengyang/etcd/Godeps/_workspace/src/golang.org/x/net/context"
+	pioutil "github.com/zhuzhengyang/etcd/pkg/ioutil"
+	"github.com/zhuzhengyang/etcd/pkg/types"
+	"github.com/zhuzhengyang/etcd/raft/raftpb"
+	"github.com/zhuzhengyang/etcd/snap"
+	"github.com/zhuzhengyang/etcd/version"
 )
 
 const (

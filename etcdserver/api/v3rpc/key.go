@@ -18,19 +18,19 @@ package v3rpc
 import (
 	"sort"
 
-	"github.com/coreos/etcd/Godeps/_workspace/src/github.com/coreos/pkg/capnslog"
-	"github.com/coreos/etcd/Godeps/_workspace/src/golang.org/x/net/context"
-	"github.com/coreos/etcd/Godeps/_workspace/src/google.golang.org/grpc"
-	"github.com/coreos/etcd/Godeps/_workspace/src/google.golang.org/grpc/codes"
-	"github.com/coreos/etcd/etcdserver"
-	"github.com/coreos/etcd/etcdserver/api/v3rpc/rpctypes"
-	pb "github.com/coreos/etcd/etcdserver/etcdserverpb"
-	"github.com/coreos/etcd/lease"
-	"github.com/coreos/etcd/storage"
+	"github.com/zhuzhengyang/etcd/Godeps/_workspace/src/github.com/coreos/pkg/capnslog"
+	"github.com/zhuzhengyang/etcd/Godeps/_workspace/src/golang.org/x/net/context"
+	"github.com/zhuzhengyang/etcd/Godeps/_workspace/src/google.golang.org/grpc"
+	"github.com/zhuzhengyang/etcd/Godeps/_workspace/src/google.golang.org/grpc/codes"
+	"github.com/zhuzhengyang/etcd/etcdserver"
+	"github.com/zhuzhengyang/etcd/etcdserver/api/v3rpc/rpctypes"
+	pb "github.com/zhuzhengyang/etcd/etcdserver/etcdserverpb"
+	"github.com/zhuzhengyang/etcd/lease"
+	"github.com/zhuzhengyang/etcd/storage"
 )
 
 var (
-	plog = capnslog.NewPackageLogger("github.com/coreos/etcd/etcdserver/api", "v3rpc")
+	plog = capnslog.NewPackageLogger("github.com/zhuzhengyang/etcd/etcdserver/api", "v3rpc")
 
 	// Max operations per txn list. For example, Txn.Success can have at most 128 operations,
 	// and Txn.Failure can have at most 128 operations.

@@ -15,9 +15,9 @@
 package recipe
 
 import (
-	"github.com/coreos/etcd/Godeps/_workspace/src/golang.org/x/net/context"
-	"github.com/coreos/etcd/clientv3"
-	"github.com/coreos/etcd/storage/storagepb"
+	"github.com/zhuzhengyang/etcd/Godeps/_workspace/src/golang.org/x/net/context"
+	"github.com/zhuzhengyang/etcd/clientv3"
+	"github.com/zhuzhengyang/etcd/storage/storagepb"
 )
 
 // WaitEvents waits on a key until it observes the given events and returns the final one.

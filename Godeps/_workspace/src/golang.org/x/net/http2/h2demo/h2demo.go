@@ -28,7 +28,7 @@ import (
 	"time"
 
 	"camlistore.org/pkg/googlestorage"
-	"github.com/coreos/etcd/Godeps/_workspace/src/golang.org/x/net/http2"
+	"github.com/zhuzhengyang/etcd/Godeps/_workspace/src/golang.org/x/net/http2"
 	"go4.org/syncutil/singleflight"
 )
 

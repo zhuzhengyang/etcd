@@ -28,13 +28,13 @@ import (
 
 	"time"
 
-	"github.com/coreos/etcd/Godeps/_workspace/src/github.com/coreos/pkg/capnslog"
-	"github.com/coreos/etcd/etcdserver/etcdhttp/httptypes"
-	"github.com/coreos/etcd/pkg/httputil"
+	"github.com/zhuzhengyang/etcd/Godeps/_workspace/src/github.com/coreos/pkg/capnslog"
+	"github.com/zhuzhengyang/etcd/etcdserver/etcdhttp/httptypes"
+	"github.com/zhuzhengyang/etcd/pkg/httputil"
 )
 
 var (
-	plog = capnslog.NewPackageLogger("github.com/coreos/etcd", "proxy")
+	plog = capnslog.NewPackageLogger("github.com/zhuzhengyang/etcd", "proxy")
 
 	// Hop-by-hop headers. These are removed when sent to the backend.
 	// http://www.w3.org/Protocols/rfc2616/rfc2616-sec13.html

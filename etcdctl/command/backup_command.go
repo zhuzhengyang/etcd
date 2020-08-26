@@ -21,13 +21,13 @@ import (
 	"path"
 	"time"
 
-	"github.com/coreos/etcd/Godeps/_workspace/src/github.com/codegangsta/cli"
-	"github.com/coreos/etcd/etcdserver/etcdserverpb"
-	"github.com/coreos/etcd/pkg/idutil"
-	"github.com/coreos/etcd/pkg/pbutil"
-	"github.com/coreos/etcd/snap"
-	"github.com/coreos/etcd/wal"
-	"github.com/coreos/etcd/wal/walpb"
+	"github.com/zhuzhengyang/etcd/Godeps/_workspace/src/github.com/codegangsta/cli"
+	"github.com/zhuzhengyang/etcd/etcdserver/etcdserverpb"
+	"github.com/zhuzhengyang/etcd/pkg/idutil"
+	"github.com/zhuzhengyang/etcd/pkg/pbutil"
+	"github.com/zhuzhengyang/etcd/snap"
+	"github.com/zhuzhengyang/etcd/wal"
+	"github.com/zhuzhengyang/etcd/wal/walpb"
 )
 
 func NewBackupCommand() cli.Command {

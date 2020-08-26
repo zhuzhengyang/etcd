@@ -22,9 +22,9 @@ import (
 	"path"
 	"testing"
 
-	"github.com/coreos/etcd/etcdserver"
-	"github.com/coreos/etcd/pkg/testutil"
-	"github.com/coreos/etcd/rafthttp"
+	"github.com/zhuzhengyang/etcd/etcdserver"
+	"github.com/zhuzhengyang/etcd/pkg/testutil"
+	"github.com/zhuzhengyang/etcd/rafthttp"
 )
 
 // TestNewPeerHandlerOnRaftPrefix tests that NewPeerHandler returns a handler that

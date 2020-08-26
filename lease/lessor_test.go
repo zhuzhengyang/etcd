@@ -22,7 +22,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/coreos/etcd/storage/backend"
+	"github.com/zhuzhengyang/etcd/storage/backend"
 )
 
 // TestLessorGrant ensures Lessor can grant wanted lease.

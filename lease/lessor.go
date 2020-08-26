@@ -21,8 +21,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/coreos/etcd/lease/leasepb"
-	"github.com/coreos/etcd/storage/backend"
+	"github.com/zhuzhengyang/etcd/lease/leasepb"
+	"github.com/zhuzhengyang/etcd/storage/backend"
 )
 
 const (

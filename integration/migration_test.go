@@ -18,7 +18,7 @@ import (
 	"os/exec"
 	"testing"
 
-	"github.com/coreos/etcd/pkg/testutil"
+	"github.com/zhuzhengyang/etcd/pkg/testutil"
 )
 
 func TestUpgradeMember(t *testing.T) {

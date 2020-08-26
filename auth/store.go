@@ -15,8 +15,8 @@
 package auth
 
 import (
-	"github.com/coreos/etcd/Godeps/_workspace/src/github.com/coreos/pkg/capnslog"
-	"github.com/coreos/etcd/storage/backend"
+	"github.com/zhuzhengyang/etcd/Godeps/_workspace/src/github.com/coreos/pkg/capnslog"
+	"github.com/zhuzhengyang/etcd/storage/backend"
 )
 
 type backendGetter interface {
@@ -27,7 +27,7 @@ var (
 	enableFlagKey  = []byte("authEnabled")
 	authBucketName = []byte("auth")
 
-	plog = capnslog.NewPackageLogger("github.com/coreos/etcd", "auth")
+	plog = capnslog.NewPackageLogger("github.com/zhuzhengyang/etcd", "auth")
 )
 
 type AuthStore interface {

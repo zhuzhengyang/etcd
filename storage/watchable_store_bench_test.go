@@ -19,8 +19,8 @@ import (
 	"os"
 	"testing"
 
-	"github.com/coreos/etcd/lease"
-	"github.com/coreos/etcd/storage/backend"
+	"github.com/zhuzhengyang/etcd/lease"
+	"github.com/zhuzhengyang/etcd/storage/backend"
 )
 
 // Benchmarks on cancel function performance for unsynced watchers

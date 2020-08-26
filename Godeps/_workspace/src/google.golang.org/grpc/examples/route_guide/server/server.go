@@ -47,15 +47,15 @@ import (
 	"net"
 	"time"
 
-	"github.com/coreos/etcd/Godeps/_workspace/src/golang.org/x/net/context"
-	"github.com/coreos/etcd/Godeps/_workspace/src/google.golang.org/grpc"
+	"github.com/zhuzhengyang/etcd/Godeps/_workspace/src/golang.org/x/net/context"
+	"github.com/zhuzhengyang/etcd/Godeps/_workspace/src/google.golang.org/grpc"
 
-	"github.com/coreos/etcd/Godeps/_workspace/src/google.golang.org/grpc/credentials"
-	"github.com/coreos/etcd/Godeps/_workspace/src/google.golang.org/grpc/grpclog"
+	"github.com/zhuzhengyang/etcd/Godeps/_workspace/src/google.golang.org/grpc/credentials"
+	"github.com/zhuzhengyang/etcd/Godeps/_workspace/src/google.golang.org/grpc/grpclog"
 
-	"github.com/coreos/etcd/Godeps/_workspace/src/github.com/golang/protobuf/proto"
+	"github.com/zhuzhengyang/etcd/Godeps/_workspace/src/github.com/golang/protobuf/proto"
 
-	pb "github.com/coreos/etcd/Godeps/_workspace/src/google.golang.org/grpc/examples/route_guide/routeguide"
+	pb "github.com/zhuzhengyang/etcd/Godeps/_workspace/src/google.golang.org/grpc/examples/route_guide/routeguide"
 )
 
 var (

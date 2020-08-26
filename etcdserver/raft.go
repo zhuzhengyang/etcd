@@ -23,16 +23,16 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/coreos/etcd/Godeps/_workspace/src/github.com/coreos/pkg/capnslog"
-	pb "github.com/coreos/etcd/etcdserver/etcdserverpb"
-	"github.com/coreos/etcd/pkg/contention"
-	"github.com/coreos/etcd/pkg/pbutil"
-	"github.com/coreos/etcd/pkg/types"
-	"github.com/coreos/etcd/raft"
-	"github.com/coreos/etcd/raft/raftpb"
-	"github.com/coreos/etcd/rafthttp"
-	"github.com/coreos/etcd/wal"
-	"github.com/coreos/etcd/wal/walpb"
+	"github.com/zhuzhengyang/etcd/Godeps/_workspace/src/github.com/coreos/pkg/capnslog"
+	pb "github.com/zhuzhengyang/etcd/etcdserver/etcdserverpb"
+	"github.com/zhuzhengyang/etcd/pkg/contention"
+	"github.com/zhuzhengyang/etcd/pkg/pbutil"
+	"github.com/zhuzhengyang/etcd/pkg/types"
+	"github.com/zhuzhengyang/etcd/raft"
+	"github.com/zhuzhengyang/etcd/raft/raftpb"
+	"github.com/zhuzhengyang/etcd/rafthttp"
+	"github.com/zhuzhengyang/etcd/wal"
+	"github.com/zhuzhengyang/etcd/wal/walpb"
 )
 
 const (
@@ -63,7 +63,7 @@ var (
 )
 
 func init() {
-	raft.SetLogger(capnslog.NewPackageLogger("github.com/coreos/etcd", "raft"))
+	raft.SetLogger(capnslog.NewPackageLogger("github.com/zhuzhengyang/etcd", "raft"))
 	expvar.Publish("raft.status", expvar.Func(func() interface{} {
 		raftStatusMu.Lock()
 		defer raftStatusMu.Unlock()

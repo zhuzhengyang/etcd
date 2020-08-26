@@ -20,11 +20,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/coreos/etcd/Godeps/_workspace/src/github.com/coreos/pkg/capnslog"
+	"github.com/zhuzhengyang/etcd/Godeps/_workspace/src/github.com/coreos/pkg/capnslog"
 )
 
 var (
-	testLogger = capnslog.NewPackageLogger("github.com/coreos/etcd/pkg", "logutil")
+	testLogger = capnslog.NewPackageLogger("github.com/zhuzhengyang/etcd/pkg", "logutil")
 )
 
 func TestMergeLogger(t *testing.T) {

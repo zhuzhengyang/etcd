@@ -22,10 +22,10 @@ import (
 	"strconv"
 	"testing"
 
-	"github.com/coreos/etcd/client"
-	"github.com/coreos/etcd/pkg/testutil"
+	"github.com/zhuzhengyang/etcd/client"
+	"github.com/zhuzhengyang/etcd/pkg/testutil"
 
-	"github.com/coreos/etcd/Godeps/_workspace/src/golang.org/x/net/context"
+	"github.com/zhuzhengyang/etcd/Godeps/_workspace/src/golang.org/x/net/context"
 )
 
 func init() {

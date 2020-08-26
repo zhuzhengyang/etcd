@@ -12,7 +12,7 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/coreos/etcd/Godeps/_workspace/src/github.com/mattn/go-runewidth"
+	"github.com/zhuzhengyang/etcd/Godeps/_workspace/src/github.com/mattn/go-runewidth"
 )
 
 var ansi = regexp.MustCompile("\033\\[(?:[0-9]{1,3}(?:;[0-9]{1,3})*)?[m|K]")

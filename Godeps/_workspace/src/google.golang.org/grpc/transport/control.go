@@ -37,7 +37,7 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/coreos/etcd/Godeps/_workspace/src/golang.org/x/net/http2"
+	"github.com/zhuzhengyang/etcd/Godeps/_workspace/src/golang.org/x/net/http2"
 )
 
 const (

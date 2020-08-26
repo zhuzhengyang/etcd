@@ -4,7 +4,7 @@ import (
 	"encoding/csv"
 	"flag"
 	"fmt"
-	"github.com/coreos/etcd/Godeps/_workspace/src/github.com/olekukonko/tablewriter"
+	"github.com/zhuzhengyang/etcd/Godeps/_workspace/src/github.com/olekukonko/tablewriter"
 	"io"
 	"os"
 	"unicode/utf8"

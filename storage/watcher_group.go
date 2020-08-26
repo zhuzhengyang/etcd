@@ -17,8 +17,8 @@ package storage
 import (
 	"math"
 
-	"github.com/coreos/etcd/pkg/adt"
-	"github.com/coreos/etcd/storage/storagepb"
+	"github.com/zhuzhengyang/etcd/pkg/adt"
+	"github.com/zhuzhengyang/etcd/storage/storagepb"
 )
 
 var (

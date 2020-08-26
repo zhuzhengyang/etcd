@@ -18,9 +18,9 @@ import (
 	"encoding/json"
 	"net/http"
 
-	"github.com/coreos/etcd/etcdserver"
-	"github.com/coreos/etcd/lease/leasehttp"
-	"github.com/coreos/etcd/rafthttp"
+	"github.com/zhuzhengyang/etcd/etcdserver"
+	"github.com/zhuzhengyang/etcd/lease/leasehttp"
+	"github.com/zhuzhengyang/etcd/rafthttp"
 )
 
 const (

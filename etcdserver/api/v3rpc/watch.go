@@ -18,10 +18,10 @@ import (
 	"io"
 	"time"
 
-	"github.com/coreos/etcd/etcdserver"
-	pb "github.com/coreos/etcd/etcdserver/etcdserverpb"
-	"github.com/coreos/etcd/storage"
-	"github.com/coreos/etcd/storage/storagepb"
+	"github.com/zhuzhengyang/etcd/etcdserver"
+	pb "github.com/zhuzhengyang/etcd/etcdserver/etcdserverpb"
+	"github.com/zhuzhengyang/etcd/storage"
+	"github.com/zhuzhengyang/etcd/storage/storagepb"
 )
 
 type watchServer struct {

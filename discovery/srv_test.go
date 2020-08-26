@@ -19,7 +19,7 @@ import (
 	"net"
 	"testing"
 
-	"github.com/coreos/etcd/pkg/testutil"
+	"github.com/zhuzhengyang/etcd/pkg/testutil"
 )
 
 func TestSRVGetCluster(t *testing.T) {

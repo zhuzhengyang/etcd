@@ -17,9 +17,9 @@ package recipe
 import (
 	"errors"
 
-	"github.com/coreos/etcd/Godeps/_workspace/src/golang.org/x/net/context"
-	v3 "github.com/coreos/etcd/clientv3"
-	spb "github.com/coreos/etcd/storage/storagepb"
+	"github.com/zhuzhengyang/etcd/Godeps/_workspace/src/golang.org/x/net/context"
+	v3 "github.com/zhuzhengyang/etcd/clientv3"
+	spb "github.com/zhuzhengyang/etcd/storage/storagepb"
 )
 
 var (

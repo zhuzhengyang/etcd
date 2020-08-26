@@ -28,32 +28,32 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/coreos/etcd/Godeps/_workspace/src/github.com/coreos/go-semver/semver"
-	"github.com/coreos/etcd/Godeps/_workspace/src/github.com/coreos/pkg/capnslog"
-	"github.com/coreos/etcd/Godeps/_workspace/src/golang.org/x/net/context"
-	"github.com/coreos/etcd/auth"
-	"github.com/coreos/etcd/compactor"
-	"github.com/coreos/etcd/discovery"
-	"github.com/coreos/etcd/etcdserver/etcdhttp/httptypes"
-	pb "github.com/coreos/etcd/etcdserver/etcdserverpb"
-	"github.com/coreos/etcd/etcdserver/stats"
-	"github.com/coreos/etcd/lease"
-	"github.com/coreos/etcd/pkg/fileutil"
-	"github.com/coreos/etcd/pkg/idutil"
-	"github.com/coreos/etcd/pkg/pbutil"
-	"github.com/coreos/etcd/pkg/runtime"
-	"github.com/coreos/etcd/pkg/schedule"
-	"github.com/coreos/etcd/pkg/types"
-	"github.com/coreos/etcd/pkg/wait"
-	"github.com/coreos/etcd/raft"
-	"github.com/coreos/etcd/raft/raftpb"
-	"github.com/coreos/etcd/rafthttp"
-	"github.com/coreos/etcd/snap"
-	dstorage "github.com/coreos/etcd/storage"
-	"github.com/coreos/etcd/storage/backend"
-	"github.com/coreos/etcd/store"
-	"github.com/coreos/etcd/version"
-	"github.com/coreos/etcd/wal"
+	"github.com/zhuzhengyang/etcd/Godeps/_workspace/src/github.com/coreos/go-semver/semver"
+	"github.com/zhuzhengyang/etcd/Godeps/_workspace/src/github.com/coreos/pkg/capnslog"
+	"github.com/zhuzhengyang/etcd/Godeps/_workspace/src/golang.org/x/net/context"
+	"github.com/zhuzhengyang/etcd/auth"
+	"github.com/zhuzhengyang/etcd/compactor"
+	"github.com/zhuzhengyang/etcd/discovery"
+	"github.com/zhuzhengyang/etcd/etcdserver/etcdhttp/httptypes"
+	pb "github.com/zhuzhengyang/etcd/etcdserver/etcdserverpb"
+	"github.com/zhuzhengyang/etcd/etcdserver/stats"
+	"github.com/zhuzhengyang/etcd/lease"
+	"github.com/zhuzhengyang/etcd/pkg/fileutil"
+	"github.com/zhuzhengyang/etcd/pkg/idutil"
+	"github.com/zhuzhengyang/etcd/pkg/pbutil"
+	"github.com/zhuzhengyang/etcd/pkg/runtime"
+	"github.com/zhuzhengyang/etcd/pkg/schedule"
+	"github.com/zhuzhengyang/etcd/pkg/types"
+	"github.com/zhuzhengyang/etcd/pkg/wait"
+	"github.com/zhuzhengyang/etcd/raft"
+	"github.com/zhuzhengyang/etcd/raft/raftpb"
+	"github.com/zhuzhengyang/etcd/rafthttp"
+	"github.com/zhuzhengyang/etcd/snap"
+	dstorage "github.com/zhuzhengyang/etcd/storage"
+	"github.com/zhuzhengyang/etcd/storage/backend"
+	"github.com/zhuzhengyang/etcd/store"
+	"github.com/zhuzhengyang/etcd/version"
+	"github.com/zhuzhengyang/etcd/wal"
 )
 
 const (
@@ -80,7 +80,7 @@ const (
 )
 
 var (
-	plog = capnslog.NewPackageLogger("github.com/coreos/etcd", "etcdserver")
+	plog = capnslog.NewPackageLogger("github.com/zhuzhengyang/etcd", "etcdserver")
 
 	storeMemberAttributeRegexp = regexp.MustCompile(path.Join(storeMembersPrefix, "[[:xdigit:]]{1,16}", attributesSuffix))
 )

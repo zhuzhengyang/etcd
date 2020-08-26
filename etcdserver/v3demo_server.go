@@ -20,13 +20,13 @@ import (
 	"sort"
 	"time"
 
-	"github.com/coreos/etcd/Godeps/_workspace/src/github.com/gogo/protobuf/proto"
-	"github.com/coreos/etcd/Godeps/_workspace/src/golang.org/x/net/context"
-	pb "github.com/coreos/etcd/etcdserver/etcdserverpb"
-	"github.com/coreos/etcd/lease"
-	"github.com/coreos/etcd/lease/leasehttp"
-	dstorage "github.com/coreos/etcd/storage"
-	"github.com/coreos/etcd/storage/storagepb"
+	"github.com/zhuzhengyang/etcd/Godeps/_workspace/src/github.com/gogo/protobuf/proto"
+	"github.com/zhuzhengyang/etcd/Godeps/_workspace/src/golang.org/x/net/context"
+	pb "github.com/zhuzhengyang/etcd/etcdserver/etcdserverpb"
+	"github.com/zhuzhengyang/etcd/lease"
+	"github.com/zhuzhengyang/etcd/lease/leasehttp"
+	dstorage "github.com/zhuzhengyang/etcd/storage"
+	"github.com/zhuzhengyang/etcd/storage/storagepb"
 )
 
 const (

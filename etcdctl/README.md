@@ -4,14 +4,14 @@ etcdctl
 `etcdctl` is a command line client for [etcd][etcd].
 It can be used in scripts or for administrators to explore an etcd cluster.
 
-[etcd]: https://github.com/coreos/etcd
+[etcd]: https://github.com/zhuzhengyang/etcd
 
 
 ## Getting etcdctl
 
 The latest release is available as a binary at [Github][github-release] along with etcd.
 
-[github-release]: https://github.com/coreos/etcd/releases/
+[github-release]: https://github.com/zhuzhengyang/etcd/releases/
 
 You can also build etcdctl from source using the build script found in the parent directory.
 
@@ -331,4 +331,4 @@ Releases will follow lockstep with the etcd release cycle.
 
 etcdctl is under the Apache 2.0 license. See the [LICENSE][license] file for details.
 
-[license]: https://github.com/coreos/etcdctl/blob/master/LICENSE
+[license]: https://github.com/zhuzhengyang/etcdctl/blob/master/LICENSE

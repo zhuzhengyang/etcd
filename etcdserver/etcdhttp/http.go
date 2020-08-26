@@ -21,12 +21,12 @@ import (
 	"strings"
 	"time"
 
-	"github.com/coreos/etcd/Godeps/_workspace/src/github.com/coreos/pkg/capnslog"
-	etcdErr "github.com/coreos/etcd/error"
-	"github.com/coreos/etcd/etcdserver"
-	"github.com/coreos/etcd/etcdserver/auth"
-	"github.com/coreos/etcd/etcdserver/etcdhttp/httptypes"
-	"github.com/coreos/etcd/pkg/logutil"
+	"github.com/zhuzhengyang/etcd/Godeps/_workspace/src/github.com/coreos/pkg/capnslog"
+	etcdErr "github.com/zhuzhengyang/etcd/error"
+	"github.com/zhuzhengyang/etcd/etcdserver"
+	"github.com/zhuzhengyang/etcd/etcdserver/auth"
+	"github.com/zhuzhengyang/etcd/etcdserver/etcdhttp/httptypes"
+	"github.com/zhuzhengyang/etcd/pkg/logutil"
 )
 
 const (
@@ -35,7 +35,7 @@ const (
 )
 
 var (
-	plog      = capnslog.NewPackageLogger("github.com/coreos/etcd", "etcdhttp")
+	plog      = capnslog.NewPackageLogger("github.com/zhuzhengyang/etcd", "etcdhttp")
 	mlog      = logutil.NewMergeLogger(plog)
 	errClosed = errors.New("etcdhttp: client closed connection")
 )

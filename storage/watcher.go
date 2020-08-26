@@ -18,7 +18,7 @@ import (
 	"errors"
 	"sync"
 
-	"github.com/coreos/etcd/storage/storagepb"
+	"github.com/zhuzhengyang/etcd/storage/storagepb"
 )
 
 var (

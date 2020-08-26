@@ -18,9 +18,9 @@ import (
 	"encoding/binary"
 	"log"
 
-	"github.com/coreos/etcd/lease"
-	"github.com/coreos/etcd/storage/backend"
-	"github.com/coreos/etcd/storage/storagepb"
+	"github.com/zhuzhengyang/etcd/lease"
+	"github.com/zhuzhengyang/etcd/storage/backend"
+	"github.com/zhuzhengyang/etcd/storage/storagepb"
 )
 
 var (

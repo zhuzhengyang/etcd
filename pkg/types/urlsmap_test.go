@@ -18,7 +18,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/coreos/etcd/pkg/testutil"
+	"github.com/zhuzhengyang/etcd/pkg/testutil"
 )
 
 func TestParseInitialCluster(t *testing.T) {

@@ -21,9 +21,9 @@ import (
 	"os"
 	"strings"
 
-	v3 "github.com/coreos/etcd/clientv3"
-	pb "github.com/coreos/etcd/etcdserver/etcdserverpb"
-	spb "github.com/coreos/etcd/storage/storagepb"
+	v3 "github.com/zhuzhengyang/etcd/clientv3"
+	pb "github.com/zhuzhengyang/etcd/etcdserver/etcdserverpb"
+	spb "github.com/zhuzhengyang/etcd/storage/storagepb"
 	"github.com/olekukonko/tablewriter"
 )
 

@@ -34,9 +34,9 @@ package proto_test
 import (
 	"testing"
 
-	. "github.com/coreos/etcd/Godeps/_workspace/src/github.com/golang/protobuf/proto"
-	proto3pb "github.com/coreos/etcd/Godeps/_workspace/src/github.com/golang/protobuf/proto/proto3_proto"
-	pb "github.com/coreos/etcd/Godeps/_workspace/src/github.com/golang/protobuf/proto/testdata"
+	. "github.com/zhuzhengyang/etcd/Godeps/_workspace/src/github.com/golang/protobuf/proto"
+	proto3pb "github.com/zhuzhengyang/etcd/Godeps/_workspace/src/github.com/golang/protobuf/proto/proto3_proto"
+	pb "github.com/zhuzhengyang/etcd/Godeps/_workspace/src/github.com/golang/protobuf/proto/testdata"
 )
 
 // Four identical base messages.

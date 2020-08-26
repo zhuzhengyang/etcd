@@ -19,7 +19,7 @@ import (
 	"fmt"
 	"regexp"
 
-	pb "github.com/coreos/etcd/storage/storagepb"
+	pb "github.com/zhuzhengyang/etcd/storage/storagepb"
 )
 
 func printKV(isHex bool, kv *pb.KeyValue) {

@@ -34,7 +34,7 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/coreos/etcd/Godeps/_workspace/src/github.com/golang/glog"
+	"github.com/zhuzhengyang/etcd/Godeps/_workspace/src/github.com/golang/glog"
 )
 
 const (

@@ -15,9 +15,9 @@
 package recipe
 
 import (
-	"github.com/coreos/etcd/Godeps/_workspace/src/golang.org/x/net/context"
-	v3 "github.com/coreos/etcd/clientv3"
-	"github.com/coreos/etcd/storage/storagepb"
+	"github.com/zhuzhengyang/etcd/Godeps/_workspace/src/golang.org/x/net/context"
+	v3 "github.com/zhuzhengyang/etcd/clientv3"
+	"github.com/zhuzhengyang/etcd/storage/storagepb"
 )
 
 // Barrier creates a key in etcd to block processes, then deletes the key to

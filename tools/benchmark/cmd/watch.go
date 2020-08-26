@@ -22,11 +22,11 @@ import (
 	"sync/atomic"
 	"time"
 
-	v3 "github.com/coreos/etcd/clientv3"
+	v3 "github.com/zhuzhengyang/etcd/clientv3"
 
-	"github.com/coreos/etcd/Godeps/_workspace/src/github.com/cheggaaa/pb"
-	"github.com/coreos/etcd/Godeps/_workspace/src/github.com/spf13/cobra"
-	"github.com/coreos/etcd/Godeps/_workspace/src/golang.org/x/net/context"
+	"github.com/zhuzhengyang/etcd/Godeps/_workspace/src/github.com/cheggaaa/pb"
+	"github.com/zhuzhengyang/etcd/Godeps/_workspace/src/github.com/spf13/cobra"
+	"github.com/zhuzhengyang/etcd/Godeps/_workspace/src/golang.org/x/net/context"
 )
 
 // watchCmd represents the watch command

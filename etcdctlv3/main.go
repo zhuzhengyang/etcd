@@ -18,8 +18,8 @@ package main
 import (
 	"text/tabwriter"
 
-	"github.com/coreos/etcd/Godeps/_workspace/src/github.com/spf13/cobra"
-	"github.com/coreos/etcd/etcdctlv3/command"
+	"github.com/zhuzhengyang/etcd/Godeps/_workspace/src/github.com/spf13/cobra"
+	"github.com/zhuzhengyang/etcd/etcdctlv3/command"
 )
 
 const (

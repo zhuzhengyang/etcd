@@ -1,0 +1,10 @@
+github.com/gogo/protobuf v0.0.0-20160125143820-e8904f58e872 h1:q0rkKpdn6+hQ69NBPPv5HyHvMPRCkW1CQ39U2Aw1jgg=
+github.com/gogo/protobuf v0.0.0-20160125143820-e8904f58e872/go.mod h1:r8qH/GZQm5c6nD/R0oafs1akxWv10x8SbQlK7atdtwQ=
+github.com/golang/protobuf v0.0.0-20160124214418-6aaa8d47701f h1:qFY7sYBr8nNKNI66nTJmquXpRpyxGHch4dvq8KdUsBc=
+github.com/golang/protobuf v0.0.0-20160124214418-6aaa8d47701f/go.mod h1:6lQm79b+lXiMfvg/cZm0SGofjICqVBUtrP5yJMmIC1U=
+github.com/mattn/go-runewidth v0.0.1 h1:+EiaBVXhogb1Klb4tRJ7hYnuGK6PkKOZlK04D/GMOqk=
+github.com/mattn/go-runewidth v0.0.1/go.mod h1:LwmH8dsx7+W8Uxz3IHJYH5QSwggIsqBzpuz5H//U1FU=
+github.com/matttproud/golang_protobuf_extensions v0.0.0-20150406173934-fc2b8d3a73c4 h1:NlK6WXPDxjVVwseTuj5NdNJBDabnoJryx4UqB5i/Lk8=
+github.com/matttproud/golang_protobuf_extensions v0.0.0-20150406173934-fc2b8d3a73c4/go.mod h1:D8He9yQNgCq6Z5Ld7szi9bcBfOoFv/3dc6xSMkL2PC0=
+github.com/olekukonko/tablewriter v0.0.0-20160115111002-cca8bbc07984 h1:c9gVtoY8wPlhJIN2V2I1V+Fn9UcXM8mDG8IHv/1c3r8=
+github.com/olekukonko/tablewriter v0.0.0-20160115111002-cca8bbc07984/go.mod h1:vsDQFd/mU46D+Z4whnwzcISnGGzXWMclvtLoiIKAKIo=

@@ -19,11 +19,11 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/coreos/etcd/Godeps/_workspace/src/github.com/coreos/pkg/capnslog"
-	"github.com/coreos/etcd/Godeps/_workspace/src/github.com/prometheus/client_golang/prometheus"
+	"github.com/zhuzhengyang/etcd/Godeps/_workspace/src/github.com/coreos/pkg/capnslog"
+	"github.com/zhuzhengyang/etcd/Godeps/_workspace/src/github.com/prometheus/client_golang/prometheus"
 )
 
-var plog = capnslog.NewPackageLogger("github.com/coreos/etcd", "etcd-tester")
+var plog = capnslog.NewPackageLogger("github.com/zhuzhengyang/etcd", "etcd-tester")
 
 func main() {
 	endpointStr := flag.String("agent-endpoints", "localhost:9027", "HTTP RPC endpoints of agents. Do not specify the schema.")

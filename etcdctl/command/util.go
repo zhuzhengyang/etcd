@@ -27,11 +27,11 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/coreos/etcd/Godeps/_workspace/src/github.com/bgentry/speakeasy"
-	"github.com/coreos/etcd/Godeps/_workspace/src/github.com/codegangsta/cli"
-	"github.com/coreos/etcd/Godeps/_workspace/src/golang.org/x/net/context"
-	"github.com/coreos/etcd/client"
-	"github.com/coreos/etcd/pkg/transport"
+	"github.com/zhuzhengyang/etcd/Godeps/_workspace/src/github.com/bgentry/speakeasy"
+	"github.com/zhuzhengyang/etcd/Godeps/_workspace/src/github.com/codegangsta/cli"
+	"github.com/zhuzhengyang/etcd/Godeps/_workspace/src/golang.org/x/net/context"
+	"github.com/zhuzhengyang/etcd/client"
+	"github.com/zhuzhengyang/etcd/pkg/transport"
 )
 
 var (
@@ -338,7 +338,7 @@ func contextWithTotalTimeout(c *cli.Context) (context.Context, context.CancelFun
 }
 
 // syncWithPeerAPI syncs cluster with peer API defined at
-// https://github.com/coreos/etcd/blob/v0.4.9/server/server.go#L311.
+// https://github.com/zhuzhengyang/etcd/blob/v0.4.9/server/server.go#L311.
 // This exists for backward compatibility with etcd 0.4.x.
 func syncWithPeerAPI(c *cli.Context, ctx context.Context, knownPeers []string) ([]string, error) {
 	tr, err := getTransport(c)
@@ -374,6 +374,6 @@ func syncWithPeerAPI(c *cli.Context, ctx context.Context, knownPeers []string) (
 		return nil, err
 	}
 
-	// Parse the peers API format: https://github.com/coreos/etcd/blob/v0.4.9/server/server.go#L311
+	// Parse the peers API format: https://github.com/zhuzhengyang/etcd/blob/v0.4.9/server/server.go#L311
 	return strings.Split(string(body), ", "), nil
 }

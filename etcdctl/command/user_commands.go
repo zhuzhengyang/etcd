@@ -19,9 +19,9 @@ import (
 	"os"
 	"strings"
 
-	"github.com/coreos/etcd/Godeps/_workspace/src/github.com/bgentry/speakeasy"
-	"github.com/coreos/etcd/Godeps/_workspace/src/github.com/codegangsta/cli"
-	"github.com/coreos/etcd/client"
+	"github.com/zhuzhengyang/etcd/Godeps/_workspace/src/github.com/bgentry/speakeasy"
+	"github.com/zhuzhengyang/etcd/Godeps/_workspace/src/github.com/codegangsta/cli"
+	"github.com/zhuzhengyang/etcd/client"
 )
 
 func NewUserCommands() cli.Command {

@@ -26,7 +26,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/coreos/etcd/etcdserver/auth"
+	"github.com/zhuzhengyang/etcd/etcdserver/auth"
 )
 
 const goodPassword = "good"

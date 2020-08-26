@@ -28,29 +28,29 @@ import (
 	"strings"
 	"time"
 
-	"github.com/coreos/etcd/Godeps/_workspace/src/github.com/coreos/go-systemd/daemon"
-	systemdutil "github.com/coreos/etcd/Godeps/_workspace/src/github.com/coreos/go-systemd/util"
-	"github.com/coreos/etcd/Godeps/_workspace/src/github.com/coreos/pkg/capnslog"
-	"github.com/coreos/etcd/Godeps/_workspace/src/github.com/prometheus/client_golang/prometheus"
-	"github.com/coreos/etcd/discovery"
-	"github.com/coreos/etcd/etcdserver"
-	"github.com/coreos/etcd/etcdserver/api/v3rpc"
-	"github.com/coreos/etcd/etcdserver/etcdhttp"
-	"github.com/coreos/etcd/pkg/cors"
-	"github.com/coreos/etcd/pkg/fileutil"
-	pkgioutil "github.com/coreos/etcd/pkg/ioutil"
-	"github.com/coreos/etcd/pkg/osutil"
-	runtimeutil "github.com/coreos/etcd/pkg/runtime"
-	"github.com/coreos/etcd/pkg/transport"
-	"github.com/coreos/etcd/pkg/types"
-	"github.com/coreos/etcd/proxy"
-	"github.com/coreos/etcd/rafthttp"
-	"github.com/coreos/etcd/version"
+	"github.com/zhuzhengyang/etcd/Godeps/_workspace/src/github.com/coreos/go-systemd/daemon"
+	systemdutil "github.com/zhuzhengyang/etcd/Godeps/_workspace/src/github.com/coreos/go-systemd/util"
+	"github.com/zhuzhengyang/etcd/Godeps/_workspace/src/github.com/coreos/pkg/capnslog"
+	"github.com/zhuzhengyang/etcd/Godeps/_workspace/src/github.com/prometheus/client_golang/prometheus"
+	"github.com/zhuzhengyang/etcd/discovery"
+	"github.com/zhuzhengyang/etcd/etcdserver"
+	"github.com/zhuzhengyang/etcd/etcdserver/api/v3rpc"
+	"github.com/zhuzhengyang/etcd/etcdserver/etcdhttp"
+	"github.com/zhuzhengyang/etcd/pkg/cors"
+	"github.com/zhuzhengyang/etcd/pkg/fileutil"
+	pkgioutil "github.com/zhuzhengyang/etcd/pkg/ioutil"
+	"github.com/zhuzhengyang/etcd/pkg/osutil"
+	runtimeutil "github.com/zhuzhengyang/etcd/pkg/runtime"
+	"github.com/zhuzhengyang/etcd/pkg/transport"
+	"github.com/zhuzhengyang/etcd/pkg/types"
+	"github.com/zhuzhengyang/etcd/proxy"
+	"github.com/zhuzhengyang/etcd/rafthttp"
+	"github.com/zhuzhengyang/etcd/version"
 )
 
 type dirType string
 
-var plog = capnslog.NewPackageLogger("github.com/coreos/etcd", "etcdmain")
+var plog = capnslog.NewPackageLogger("github.com/zhuzhengyang/etcd", "etcdmain")
 
 const (
 	// the owner can make/remove files inside the directory
@@ -544,7 +544,7 @@ func setupLogging(cfg *config) {
 		capnslog.SetGlobalLogLevel(capnslog.DEBUG)
 	}
 	if cfg.logPkgLevels != "" {
-		repoLog := capnslog.MustRepoLogger("github.com/coreos/etcd")
+		repoLog := capnslog.MustRepoLogger("github.com/zhuzhengyang/etcd")
 		settings, err := repoLog.ParseLogLevelConfig(cfg.logPkgLevels)
 		if err != nil {
 			plog.Warningf("couldn't parse log level string: %s, continuing with default levels", err.Error())

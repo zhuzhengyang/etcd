@@ -16,7 +16,7 @@ package blackfriday
 import (
 	"bytes"
 
-	"github.com/coreos/etcd/Godeps/_workspace/src/github.com/shurcooL/sanitized_anchor_name"
+	"github.com/zhuzhengyang/etcd/Godeps/_workspace/src/github.com/shurcooL/sanitized_anchor_name"
 )
 
 // Parse block-level data.

@@ -18,10 +18,10 @@ import (
 	"os"
 	"time"
 
-	"github.com/coreos/etcd/Godeps/_workspace/src/github.com/spf13/cobra"
-	"github.com/coreos/etcd/lease"
-	"github.com/coreos/etcd/storage"
-	"github.com/coreos/etcd/storage/backend"
+	"github.com/zhuzhengyang/etcd/Godeps/_workspace/src/github.com/spf13/cobra"
+	"github.com/zhuzhengyang/etcd/lease"
+	"github.com/zhuzhengyang/etcd/storage"
+	"github.com/zhuzhengyang/etcd/storage/backend"
 )
 
 var (

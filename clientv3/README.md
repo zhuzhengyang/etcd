@@ -1,13 +1,13 @@
 # etcd/clientv3
 
-[![Godoc](http://img.shields.io/badge/go-documentation-blue.svg?style=flat-square)](https://godoc.org/github.com/coreos/etcd/clientv3)
+[![Godoc](http://img.shields.io/badge/go-documentation-blue.svg?style=flat-square)](https://godoc.org/github.com/zhuzhengyang/etcd/clientv3)
 
 `etcd/clientv3` is the official Go etcd client for v3.
 
 ## Install
 
 ```bash
-go get github.com/coreos/etcd/clientv3
+go get github.com/zhuzhengyang/etcd/clientv3
 ```
 
 ## Get started
@@ -45,7 +45,7 @@ if err != nil {
 etcd client returns 2 types of errors:
 
 1. context error: canceled or deadline exceeded.
-2. gRPC error: see [v3rpc/error](https://github.com/coreos/etcd/blob/master/etcdserver/api/v3rpc/error.go).
+2. gRPC error: see [v3rpc/error](https://github.com/zhuzhengyang/etcd/blob/master/etcdserver/api/v3rpc/error.go).
 
 Here is the example code to handle client errors:
 
@@ -66,4 +66,4 @@ if err != nil {
 
 ## Examples
 
-More code examples can be found at [GoDoc](https://godoc.org/github.com/coreos/etcd/clientv3).
+More code examples can be found at [GoDoc](https://godoc.org/github.com/zhuzhengyang/etcd/clientv3).

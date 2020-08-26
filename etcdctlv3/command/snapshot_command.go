@@ -19,11 +19,11 @@ import (
 	"io"
 	"os"
 
-	"github.com/coreos/etcd/Godeps/_workspace/src/github.com/spf13/cobra"
-	"github.com/coreos/etcd/Godeps/_workspace/src/golang.org/x/net/context"
-	"github.com/coreos/etcd/clientv3"
-	"github.com/coreos/etcd/clientv3/mirror"
-	"github.com/coreos/etcd/etcdserver/api/v3rpc/rpctypes"
+	"github.com/zhuzhengyang/etcd/Godeps/_workspace/src/github.com/spf13/cobra"
+	"github.com/zhuzhengyang/etcd/Godeps/_workspace/src/golang.org/x/net/context"
+	"github.com/zhuzhengyang/etcd/clientv3"
+	"github.com/zhuzhengyang/etcd/clientv3/mirror"
+	"github.com/zhuzhengyang/etcd/etcdserver/api/v3rpc/rpctypes"
 )
 
 // NewSnapshotCommand returns the cobra command for "snapshot".

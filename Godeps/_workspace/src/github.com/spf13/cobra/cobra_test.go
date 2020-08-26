@@ -10,7 +10,7 @@ import (
 	"testing"
 	"text/template"
 
-	"github.com/coreos/etcd/Godeps/_workspace/src/github.com/spf13/pflag"
+	"github.com/zhuzhengyang/etcd/Godeps/_workspace/src/github.com/spf13/pflag"
 )
 
 var _ = fmt.Println

@@ -22,8 +22,8 @@ import (
 	"path"
 	"strings"
 
-	"github.com/coreos/etcd/pkg/fileutil"
-	"github.com/coreos/etcd/pkg/types"
+	"github.com/zhuzhengyang/etcd/pkg/fileutil"
+	"github.com/zhuzhengyang/etcd/pkg/types"
 )
 
 var (

@@ -11,8 +11,8 @@ import (
 	"time"
 	"unicode/utf8"
 
-	shell "github.com/coreos/etcd/Godeps/_workspace/src/github.com/kballard/go-shellquote"
-	"github.com/coreos/etcd/Godeps/_workspace/src/github.com/kr/pty"
+	shell "github.com/zhuzhengyang/etcd/Godeps/_workspace/src/github.com/kballard/go-shellquote"
+	"github.com/zhuzhengyang/etcd/Godeps/_workspace/src/github.com/kr/pty"
 )
 
 type ExpectSubprocess struct {

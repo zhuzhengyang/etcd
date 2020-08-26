@@ -21,13 +21,13 @@ import (
 	"strings"
 	"time"
 
-	"github.com/coreos/etcd/Godeps/_workspace/src/golang.org/x/net/context"
-	"github.com/coreos/etcd/Godeps/_workspace/src/google.golang.org/grpc"
+	"github.com/zhuzhengyang/etcd/Godeps/_workspace/src/golang.org/x/net/context"
+	"github.com/zhuzhengyang/etcd/Godeps/_workspace/src/google.golang.org/grpc"
 
-	clientv2 "github.com/coreos/etcd/client"
-	"github.com/coreos/etcd/clientv3"
-	pb "github.com/coreos/etcd/etcdserver/etcdserverpb"
-	"github.com/coreos/etcd/tools/functional-tester/etcd-agent/client"
+	clientv2 "github.com/zhuzhengyang/etcd/client"
+	"github.com/zhuzhengyang/etcd/clientv3"
+	pb "github.com/zhuzhengyang/etcd/etcdserver/etcdserverpb"
+	"github.com/zhuzhengyang/etcd/tools/functional-tester/etcd-agent/client"
 )
 
 const peerURLPort = 2380
@@ -171,7 +171,7 @@ func (c *cluster) WaitHealth() error {
 	// wait 60s to check cluster health.
 	// TODO: set it to a reasonable value. It is set that high because
 	// follower may use long time to catch up the leader when reboot under
-	// reasonable workload (https://github.com/coreos/etcd/issues/2698)
+	// reasonable workload (https://github.com/zhuzhengyang/etcd/issues/2698)
 	healthFunc, urls := setHealthKey, c.GRPCURLs
 	if c.v2Only {
 		healthFunc, urls = setHealthKeyV2, c.ClientURLs

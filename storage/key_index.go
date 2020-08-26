@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/coreos/etcd/Godeps/_workspace/src/github.com/google/btree"
+	"github.com/zhuzhengyang/etcd/Godeps/_workspace/src/github.com/google/btree"
 )
 
 var (

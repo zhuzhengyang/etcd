@@ -17,8 +17,8 @@ package etcdserver
 import (
 	"time"
 
-	"github.com/coreos/etcd/pkg/types"
-	"github.com/coreos/etcd/rafthttp"
+	"github.com/zhuzhengyang/etcd/pkg/types"
+	"github.com/zhuzhengyang/etcd/rafthttp"
 )
 
 // isConnectedToQuorumSince checks whether the local member is connected to the

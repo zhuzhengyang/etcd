@@ -34,10 +34,10 @@ package proto_test
 import (
 	"testing"
 
-	"github.com/coreos/etcd/Godeps/_workspace/src/github.com/gogo/protobuf/proto"
+	"github.com/zhuzhengyang/etcd/Godeps/_workspace/src/github.com/gogo/protobuf/proto"
 
-	proto3pb "github.com/coreos/etcd/Godeps/_workspace/src/github.com/gogo/protobuf/proto/proto3_proto"
-	pb "github.com/coreos/etcd/Godeps/_workspace/src/github.com/gogo/protobuf/proto/testdata"
+	proto3pb "github.com/zhuzhengyang/etcd/Godeps/_workspace/src/github.com/gogo/protobuf/proto/proto3_proto"
+	pb "github.com/zhuzhengyang/etcd/Godeps/_workspace/src/github.com/gogo/protobuf/proto/testdata"
 )
 
 var cloneTestMessage = &pb.MyMessage{

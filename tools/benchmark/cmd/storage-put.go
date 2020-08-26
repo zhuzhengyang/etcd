@@ -21,8 +21,8 @@ import (
 	"runtime/pprof"
 	"time"
 
-	"github.com/coreos/etcd/Godeps/_workspace/src/github.com/spf13/cobra"
-	"github.com/coreos/etcd/lease"
+	"github.com/zhuzhengyang/etcd/Godeps/_workspace/src/github.com/spf13/cobra"
+	"github.com/zhuzhengyang/etcd/lease"
 )
 
 // storagePutCmd represents a storage put performance benchmarking tool
@@ -146,5 +146,5 @@ func storagePutFunc(cmd *cobra.Command, args []string) {
 	// TODO: Currently this benchmark doesn't use the common histogram infrastructure.
 	// This is because an accuracy of the infrastructure isn't suitable for measuring
 	// performance of kv storage:
-	// https://github.com/coreos/etcd/pull/4070#issuecomment-167954149
+	// https://github.com/zhuzhengyang/etcd/pull/4070#issuecomment-167954149
 }

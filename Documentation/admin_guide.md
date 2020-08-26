@@ -265,7 +265,7 @@ You can then add more nodes to the cluster and restore resiliency. See the [add 
 
 ### Client Request Timeout
 
-etcd sets different timeouts for various types of client requests. The timeout value is not tunable now, which will be improved soon (https://github.com/coreos/etcd/issues/2038).
+etcd sets different timeouts for various types of client requests. The timeout value is not tunable now, which will be improved soon (https://github.com/zhuzhengyang/etcd/issues/2038).
 
 #### Get requests
 
@@ -304,6 +304,6 @@ When using etcd in heavy-load scenarios on machines with multiple cores it will 
 [prometheus]: http://prometheus.io/
 [remove-a-member]: runtime-configuration.md#remove-a-member
 [runtime-reconfig]: runtime-configuration.md#cluster-reconfiguration-operations
-[snap-pkg]: http://godoc.org/github.com/coreos/etcd/snap
+[snap-pkg]: http://godoc.org/github.com/zhuzhengyang/etcd/snap
 [update-a-member]: runtime-configuration.md#update-a-member
-[wal-pkg]: http://godoc.org/github.com/coreos/etcd/wal
+[wal-pkg]: http://godoc.org/github.com/zhuzhengyang/etcd/wal

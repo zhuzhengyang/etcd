@@ -24,7 +24,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/coreos/etcd/Godeps/_workspace/src/golang.org/x/net/http2/hpack"
+	"github.com/zhuzhengyang/etcd/Godeps/_workspace/src/golang.org/x/net/http2/hpack"
 )
 
 const (
